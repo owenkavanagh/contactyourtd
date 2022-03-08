@@ -1,0 +1,167 @@
+{layout='layouts/_home'}
+
+{layout:set name='body_class' value='landing-page'}
+
+
+{!-- layout vars, dynamic, not output --}
+{layout:set name='title' value='{if seo_title}{seo_title}{if:else}{p_title}{/if}{gv_sep}'}
+{layout:set name='description' value='{if seo_desc}{seo_desc}{if:else}{p_description}{/if}'}
+{!-- OpenGraph meta output --}
+{layout:set name='og_title' value='{if seo_title}{seo_title}{if:else}{p_title}{/if}'}
+{layout:set name='og_url'}{path='{p_url}'}{/layout:set}
+{layout:set name='og_description' value='{if seo_desc}{seo_desc}{if:else}{p_description}{/if}'}
+{!-- /layout vars, dynamic, not output --}
+
+{exp:contact_your_td:constituencies url_title="{segment_3}"}
+<div class="wrapper">
+    <div class="section section-hero section-shaped">
+        <div class="shape shape-style-3 shape-default">
+            <!-- <span class="span-150"></span>
+            <span class="span-50"></span>
+            <span class="span-50"></span>
+            <span class="span-75"></span>
+            <span class="span-100"></span>
+            <span class="span-75"></span>
+            <span class="span-50"></span>
+            <span class="span-100"></span>
+            <span class="span-50"></span>
+            <span class="span-100"></span> -->
+        </div>
+        <div class="page-header">
+            <div class="container shape-container d-flex align-items-center py-lg">
+                <div class="col px-0">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-12 text-center">
+                            <h1 class="text-white display-1">{constituency_name}</h1>
+                            <h2 class="display-4 font-weight-normal text-gray"><em>{province_name}</em></h2>
+                            <!-- <div class="btn-wrapper mt-4">
+                              <a href="https://www.creative-tim.com/product/argon-design-system" class="btn btn-warning btn-icon mt-3 mb-sm-0">
+                                <span class="btn-inner--icon"><i class="ni ni-button-play"></i></span>
+                                <span class="btn-inner--text">Play more</span>
+                              </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator separator-bottom separator-skew zindex-100">
+            <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <polygon class="fill-secondary" points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+    </div>
+
+    <section class="section bg-secondary">
+        <div class="container">
+            <div class="card card-profile shadow mt--200 px-md-5 py-md-5 px-sm-3 py-sm-3 pb-5">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Party</th>
+                                <th class="text-right">Social</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+
+                            {politicians}
+                            <tr>
+                                <td>{politicians:full_name}</td>
+                                <td>{politicians:party_name}</td>
+                                <td class="td-actions text-right">
+
+                                    {if politicians:website}
+                                    <a href="{politicians:website}" target="_blank" rel="tooltip" class="btn btn-danger btn-icon btn-sm">
+                                        <i class="fa fa-globe pt-1"></i>
+                                    </a>
+                                    {if:else}
+                                    <button class="btn btn-link btn-icon btn-sm" disabled>
+                                        <i class="fa fa-globe pt-1"></i>
+                                    </button>
+                                    {/if}
+
+                                    {if politicians:twitter}
+                                    <a class="btn btn-info btn-icon btn-sm" href="https://twitter.com/intent/tweet?text={exp:contact_your_td:url_embed}@{politicians:twitter} Hi {politicians:first_name}, I'm tweeting you because... via @ContactYourTD{/exp:contact_your_td:url_embed}" data-toggle="tooltip" data-placement="bottom" title="Tweet at {politicians:full_name}">
+                                        <i class="fa fa-twitter pt-1"></i>
+                                    </a>
+                                    {if:else}
+                                    <button class="btn btn-link btn-icon btn-sm" disabled>
+                                        <i class="fa fa-twitter pt-1"></i>
+                                    </button>
+                                    {/if}
+
+                                    {if politicians:email}
+                                    <a href="mailto:{politicians:email}" class="btn btn-success btn-icon btn-sm" data-toggle="tooltip" data-placement="bottom" title="Clicking this will open your email client">
+                                        <i class="fa fa-envelope pt-1"></i>
+                                    </a>
+                                    {if:else}
+                                    <button class="btn btn-link btn-icon btn-sm" disabled>
+                                        <i class="fa fa-envelope pt-1"></i>
+                                    </button>
+                                    {/if}
+                                </td>
+                            </tr>
+                            {/politicians}
+                            </tbody>
+                        </table></div>
+                    </div>
+                    <div class="col-lg-4 mx-auto text-center">
+                        <a class="btn btn-success mb-3" href="mailto:{politicians backspace="1"}{politicians:email},{/politicians}" data-toggle="tooltip" data-placement="bottom" title="Clicking this will open email client"><i class="fa fa-envelope pt-1"></i> &nbsp;Email All TDs</a><br>
+                        <a class="btn btn-secondary mb-3" href="#" data-toggle="tooltip" data-placement="bottom" title="Copy a comma separated list of emails to compose own email"><i class="fa fa-copy pt-1"></i> &nbsp;Copy Emails</a>
+
+                        <br><br>
+                        <a class="btn btn-info mb-3" href="https://twitter.com/intent/tweet?text={exp:contact_your_td:url_embed}Hi, I'm tweeting you because... {politicians backspace="1"}{if politicians:twitter != ''}@{/if}{politicians:twitter} {/politicians} via @ContactYourTD{/exp:contact_your_td:url_embed}" data-toggle="tooltip" data-placement="bottom" title="Tweet at all TDs in {constituency_name} (opens in new tab)"><i class="fa fa-twitter pt-1"></i> &nbsp;Tweet All TDs</a> <br>
+                        <a href="#" class="btn btn-secondary mb-4" data-toggle="tooltip" data-placement="bottom" title="Copy a list of @usernames to compose your own tweet"><i class="fa fa-copy pt-1"></i> &nbsp;Copy @Usernames</a>
+                        <div style="width: 300px" class="mt-5 mx-auto">
+                            <canvas id="js_party_percentage"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    {/exp:contact_your_td:constituencies}
+
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <script>
+        pielabels = [];
+        piedata = [];
+        piecolors = [];
+
+        {exp:contact_your_td:constituency_stats url_title="{segment_3}"}
+            pielabels.push("{party_name}");
+            piedata.push("{number_of_tds}");
+            piecolors.push("{party_colour}");
+        {/exp:contact_your_td:constituency_stats}
+        // <block:setup:1>
+        const data = {
+            labels: pielabels,
+            datasets: [{
+                label: 'Party Percentage',
+                data: piedata,
+                backgroundColor: piecolors,
+                hoverOffset: 4
+            }]
+        };
+        // </block:setup>
+            var options = {rotation: -23.5};
+        // <block:config:0>
+        const config = {
+            type: 'pie',
+            data: data,
+            options: options
+        };
+        // </block:config>
+
+
+
+        const myChart = new Chart(
+            document.getElementById('js_party_percentage'),
+            config
+        );
+    </script>

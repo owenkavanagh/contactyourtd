@@ -1,0 +1,160 @@
+party,name,constituency
+1,James Browne,Wexford
+1,Mary Butler,Waterford
+1,Thomas Byrne,Meath East
+1,Jackie Cahill,Tipperary
+1,Dara Calleary,Mayo
+1,Jack Chambers,Dublin West
+1,Niall Collins,Limerick County
+1,Barry Cowen,Laois - Offaly
+1,Cathal Crowe,Clare
+1,Éamon Ó Cuív,Galway West
+1,Cormac Devlin,Dún Laoghaire
+1,Stephen Donnelly,Wicklow
+1,Joe Flaherty,Longford - Westmeath
+1,Seán Fleming,Laois - Offaly
+1,Norma Foley,Kerry
+1,Seán Haughey,Dublin Bay North
+1,John Lahart,Dublin South - West
+1,James Lawless,Kildare North
+1,Marc MacSharry,Sligo - Leitrim
+1,Micheál Martin,Cork South - Central
+1,Paul McAuliffe,Dublin North - West
+1,Charlie McConalogue,Donegal
+1,Michael McGrath,Cork South - Central
+1,John McGuinness,Carlow - Kilkenny
+1,Michael Moynihan,Cork North - West
+1,Aindrias Moynihan,Cork North - West
+1,Darragh O'Brien,Dublin Fingal
+1,Jim O'Callaghan,Dublin Bay South
+1,James O'Connor,Cork East
+1,Jennifer Murnane O'Connor,Carlow - Kilkenny
+1,Willie O'Dea,Limerick City
+1,Christopher O'Sullivan,Cork South - West
+1,Pádraig O'Sullivan,Cork North - Central
+1,Anne Rabbitte,Galway East
+1,Brendan Smith,Cavan - Monaghan
+1,Niamh Smyth,Cavan - Monaghan
+1,Robert Troy,Longford - Westmeath
+2,Chris Andrews,Dublin Bay South
+2,John Brady,Wicklow
+2,Martin Browne,Tipperary
+2,Pat Buckley,Cork East
+2,Matt Carthy,Cavan - Monaghan
+2,Sorca Clarke,Longford - Westmeath
+2,Rose Conway - Walsh,Mayo
+2,Réada Cronin,Kildare North
+2,Seán Crowe,Dublin South - West
+2,David Cullinane,Waterford
+2,Pa Daly,Kerry
+2,Pearse Doherty,Donegal
+2,Paul Donnelly,Dublin West
+2,Dessie Ellis,Dublin North - West
+2,Mairéad Farrell,Galway West
+2,Kathleen Funchion,Carlow - Kilkenny
+2,Thomas Gould,Cork North - Central
+2,Johnny Guirke,Meath West
+2,Martin Kenny,Sligo - Leitrim
+2,Claire Kerrane,Roscommon - Galway
+2,Pádraig Mac Lochlainn,Donegal
+2,Mary Lou McDonald,Dublin Central
+2,Denise Mitchell,Dublin Bay North
+2,Imelda Munster,Louth
+2,Johnny Mythen,Wexford
+2,Eoin Ó Broin,Dublin Mid - West
+2,Donnchadh Ó Laoghaire,Cork South - Central
+2,Ruairí Ó Murchú,Louth
+2,Louise O'Reilly,Dublin Fingal
+2,Darren O'Rourke,Meath East
+2,Maurice Quinlivan,Limerick City
+2,Patricia Ryan,Kildare South
+2,Aengus Ó Snodaigh,Dublin South - Central
+2,Brian Stanley,Laois - Offaly
+2,Pauline Tully,Cavan - Monaghan
+2,Mark Ward,Dublin Mid - West
+2,Violet - Anne Wynne,Clare
+3,Colm Brophy,Dublin South - West
+3,Richard Bruton,Dublin Bay North
+3,Colm Burke,Cork North - Central
+3,Peter Burke,Longford - Westmeath
+3,Ciarán Cannon,Galway East
+3,Joe Carey,Clare
+3,Simon Coveney,Cork South - Central
+3,Michael Creed,Cork North - West
+3,Alan Dillon,Mayo
+3,Paschal Donohoe,Dublin Central
+3,Bernard Durkan,Kildare North
+3,Damien English,Meath West
+3,Alan Farrell,Dublin Fingal
+3,Frank Feighan,Sligo - Leitrim
+3,Charles Flanagan,Laois - Offaly
+3,Brendan Griffin,Kerry
+3,Simon Harris,Wicklow
+3,Martin Heydon,Kildare South
+3,Emer Higgins,Dublin Mid - West
+3,Heather Humphreys,Cavan - Monaghan
+3,Paul Kehoe,Wexford
+3,Jennifer Carroll MacNeill,Dún Laoghaire
+3,Josepha Madigan,Dublin Rathdown
+3,Helen McEntee,Meath East
+3,Joe McHugh,Donegal
+3,Eoghan Murphy,Dublin Bay South
+3,Hildegarde Naughton,Galway West
+3,Kieran O'Donnell,Limerick City
+3,Patrick O'Donovan,Limerick County
+3,Fergus O'Dowd,Louth
+3,John Paul Phelan,Carlow - Kilkenny
+3,Neale Richmond,Dublin Rathdown
+3,Michael Ring,Mayo
+3,David Stanton,Cork East
+3,Leo Varadkar,Dublin West
+4,Marc Ó Cathasaigh,Waterford
+4,Patrick Costello,Dublin South - Central
+4,Francis Noel Duffy,Dublin South - West
+4,Neasa Hourigan,Dublin Central
+4,Brian Leddin,Limerick City
+4,Catherine Martin,Dublin Rathdown
+4,Steven Matthews,Wicklow
+4,Malcolm Noonan,Carlow - Kilkenny
+4,Joe O'Brien,Dublin Fingal
+4,Roderic O'Gorman,Dublin West
+4,Eamon Ryan,Dublin Bay South
+4,Ossian Smyth,Dún Laoghaire
+5,Brendan Howlin,Wexford
+5,Alan Kelly,Tipperary
+5,Ged Nash,Louth
+5,Aodhán Ó Ríordáin,Dublin Bay North
+5,Seán Sherlock,Cork East
+5,Duncan Smith,Dublin Fingal
+6,Holly Cairns,Cork South - West
+6,Gary Gannon,Dublin Central
+6,Catherine Murphy,Kildare North
+6,Cian O'Callaghan,Dublin Bay North
+6,Róisín Shortall,Dublin North - West
+6,Jennifer Whitmore,Wicklow
+7,Richard Boyd Barrett,Dún Laoghaire
+7,Mick Barry,Cork North - Central
+7,Gino Kenny,Dublin Mid - West
+7,Paul Murphy,Dublin South - West
+7,Bríd Smith,Dublin South - Central
+8,Peadar Tóibín,Meath West
+9,Joan Collins,Dublin South - Central
+10,Cathal Berry,Kildare South
+10,Seán Canney,Galway East
+10,Michael Collins,Cork South - West
+10,Catherine Connolly,Galway West
+10,Michael Fitzmaurice,Roscommon - Galway
+10,Peter Fitzpatrick,Louth
+10,Noel Grealish,Galway West
+10,Marian Harkin,Sligo - Leitrim
+10,Danny Healy-Rae,Kerry
+10,Michael Healy-Rae,Kerry
+10,Michael Lowry,Tipperary
+10,Mattie McGrath,Tipperary
+10,Michael McNamara,Clare
+10,Verona Murphy,Wexford
+10,Denis Naughten,Roscommon - Galway
+10,Carol Nolan,Laois - Offaly
+10,Richard O'Donoghue,Limerick County
+10,Thomas Pringle,Donegal
+10,Matt Shanahan,Waterford
